@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Adalab-course"
+		},
+		{
+			"path": "../../Adalab-course/soluciones-alumnas-l"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Adalab-course"
+	}
+}

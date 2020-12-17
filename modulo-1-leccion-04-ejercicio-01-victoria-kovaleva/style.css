@@ -1,0 +1,15 @@
+.container {
+    background-color: red;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.item {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 500px;
+}

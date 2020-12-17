@@ -1,0 +1,9 @@
+header {
+    position: fixed;
+    background: purple;
+}
+
+div {
+    position: relative;
+    top: 50px;
+}

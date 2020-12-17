@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="styles/main.css">
+<body>
+<header>Posicionamientos</header>
+<div>
+    <p>Posicionamiento de elementos
+    Antes de tener disponible flexbox el posicionamiento que vamos a ver era la principal opción de solucionar diseños complejos. En cualquier caso todavía puede que nos encontremos con soluciones muy complejas o código ya resuelto con este sistema, así que vamos a verlo:</p>
+    <p>Aparte de modificar la distribución, podremos hacer que cambien su comportamiento a la hora de hacer scroll en la página y que modifiquen la posición de otros objetos al modificar la suya propia.</p>
+    <p>La propiedad position de CSS será la que nos permita modificar la forma en la que se distribuyen los objetos a través de una página web.
+    El atributo position es fundamental en casos muy concretos con las webs actuales, es decir, no podríamos tener ciertas superposiciones y no podríamos sacar a un elemento del flujo de la página para que el resto de elementos (contenedor y elementos hermanos) no lo tengan en cuenta y lo ignoren.</p>
+    <p>La propiedad position tiene cuatro valores posibles:
+    static: Es el tipo de posición por defecto en todos los elementos HTML.
+    relative: Permite modificar la posición de un elemento en función de su posición actual en la página.
+    absolute: Saca al elemento del flujo de la página, es decir, hace que su contenedor y los elementos de antes y después no lo tengan en cuenta a la hora de posicionarse y definir su tamaño y por otro lado posiciona el elemento en función de la posición del body o en su defecto del primer elemento contenedor que tenga una posición diferente a static (posición por defecto).
+    fixed: Saca a un elemento del flujo normal de la página y permite posicionarlo en función de la ventana del navegador. Aparte, este tipo de elementos mantienen su posición cuando hacemos scroll en la página (como si se mantuviesen anclados en un mismo punto), de ahí su nombre fixed (fijo).</p>
+    <p>Como hemos visto, cuando posicionamos una caja con cualquier valor que no sea static y modificamos su posición horizontal y/o vertical (top, right, bottom, left) esta se puede superponer visualmente por encima de otras.
+    Esto ocurre porque, adicionalmente a sus posiciones horizontales y verticales, las cajas se apilan a lo largo de un "eje z".
+    Cuando las cajas se superponen por encima de otras, se están posicionando en capas adicionales a la capa normal de renderizado (capa 0).
+    La posición Z de cada capa representa el orden de apilamiento. Podemos modificarlo con la propiedad z-index. Números más grandes significan mayor cercanía a la observadora.</p>
+    <p>Video para entender z-index.
+    EJERCICIO 2
+    Desplazando divs relativamente
+    Define un documento HTML con un div padre (divPadre), dentro del cual existan otras 3 cajas contenedoras div (div1, div2 y div3), cada una de ellas con unas dimensiones de 300x300px, 40 píxeles de margin en todas direcciones, 30 píxeles de padding en todas direcciones y un background color diferente. Usando posicionamiento relativo genera un desplazamiento de los div de la siguiente manera:
+    El div 1 deberá desplazarse 100 píxeles a la derecha y 50 píxeles hacia abajo respecto a lo que sería su posición normal.
+    El div 2 deberá desplazarse 150 píxeles a la izquierda y 320 píxeles hacia arriba respecto a lo que sería su posición normal.
+    El div 3 deberá desplazarse 180 píxeles a la derecha y 240 píxeles hacia arriba respecto a lo que sería su posición normal.
+    </p>
+    </div>
+</body>

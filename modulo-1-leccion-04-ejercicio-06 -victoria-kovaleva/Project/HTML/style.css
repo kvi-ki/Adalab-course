@@ -1,0 +1,25 @@
+.header {
+    display: block;
+    border: 2px blue;
+    text-align: center;
+    background-color: red;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .aside-1 {
+    text-align: center;
+
+  }
+
+  .aside-2 {
+    text-align: center;
+  }
+
+  .footer {
+    
+  }
